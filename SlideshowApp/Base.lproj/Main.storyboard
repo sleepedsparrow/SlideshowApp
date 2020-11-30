@@ -26,14 +26,12 @@
                                 </connections>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="npW-hC-Esh">
-                                <rect key="frame" x="64.5" y="597" width="285" height="33"/>
+                                <rect key="frame" x="84.5" y="597" width="245" height="33"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pDv-OR-wlb">
                                         <rect key="frame" x="0.0" y="0.0" width="35" height="33"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                        <state key="normal" title="進む">
-                                            <color key="titleColor" red="0.09807024279889881" green="0.33694418525912506" blue="0.67693131345177671" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </state>
+                                        <state key="normal" title="進む"/>
                                         <connections>
                                             <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jf5-A1-NgN"/>
                                         </connections>
@@ -41,19 +39,15 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXe-Zb-9aH">
                                         <rect key="frame" x="105" y="0.0" width="35" height="33"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                        <state key="normal" title="戻る">
-                                            <color key="titleColor" red="0.09807024279889881" green="0.33694418525912506" blue="0.67693131345177671" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </state>
+                                        <state key="normal" title="戻る"/>
                                         <connections>
                                             <action selector="returnButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="boe-NX-Ih7"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="976-Zz-RPM">
-                                        <rect key="frame" x="210" y="0.0" width="75" height="33"/>
+                                        <rect key="frame" x="210" y="0.0" width="35" height="33"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
-                                        <state key="normal" title="再生/停止">
-                                            <color key="titleColor" red="0.09807024279889881" green="0.33694418525912506" blue="0.67693131345177671" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        </state>
+                                        <state key="normal" title="再生"/>
                                         <connections>
                                             <action selector="slideShowButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kgF-7R-LeO"/>
                                         </connections>

@@ -28,13 +28,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        imageView.image = imageArray[0]
         // Do any additional setup after loading the view.
     }
     
     
     @IBAction func slideShowButton(_ sender: Any) {
         if ( self.timer == nil ) {
-            self.timer = Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(updateImage(_:)), userInfo: self, repeats: true)
+            self.timer = Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(updateImage(_:)), userInfo: self, repeats: true)
             nextButton.isEnabled = false
             returnButton.isEnabled = false
             startButton.setTitle("停止", for: .normal)
