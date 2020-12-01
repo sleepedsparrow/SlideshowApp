@@ -21,9 +21,9 @@ class ViewController: UIViewController {
     var nowIndex: Int = 0
     var timer: Timer!
     var imageArray: [UIImage] = [
-        UIImage(named: "sister01")!,
-        UIImage(named: "sister02")!,
-        UIImage(named: "sister03")!
+        UIImage(named: "image/sister01.jpg")!,
+        UIImage(named: "image/sister02.jpg")!,
+        UIImage(named: "image/sister03.jpg")!
     ]
     
     override func viewDidLoad() {
@@ -89,6 +89,9 @@ class ViewController: UIViewController {
     
     @IBAction func tapAction(_ sender: Any) {
         performSegue(withIdentifier: "result", sender: nil)
+        if (self.timer != nil) {
+            self.timer.invalidate()
+        }
     }
     
     
