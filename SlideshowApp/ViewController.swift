@@ -91,6 +91,10 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "result", sender: nil)
         if (self.timer != nil) {
             self.timer.invalidate()
+            self.timer = nil
+            nextButton.isEnabled = true
+            returnButton.isEnabled = true
+            startButton.setTitle("再生", for: .normal)
         }
     }
     
